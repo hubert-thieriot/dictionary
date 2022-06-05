@@ -37,6 +37,10 @@ h3 {
     font-style: italic;
 }
 
+.examples ul {
+    list-style: '- ';
+}
+
 .header {
     margin-top: 50px;
 }
