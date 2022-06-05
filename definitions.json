@@ -16,12 +16,20 @@
         "examples":"<ul><li>Andrew is getting really close to Carrie. Doesn't he have a partner?</li><li>Hmm, this looks to me like a <span class='highlight'>candidcrush</span>.</li></ul>"
     },
     {
+        "title": "Jureadiction",
+        "definition": "The metabolism increase as you read an article you disagree with, spun by the idea that you would have to prove the author wrong in front of a partial jury. The phenomenon is exacerbated when the article has been shared by someone you highly value or respect."
+    },
+    {
         "title":"Oxia",
         "definition":"When one becomes proud of something she was ashamed of until then.",
         "examples":"I had an <span class='highlight'>oxia</span> moment last night. It felt good.",
         "antonym":"Axio"
     },
-     {
+    {
+        "title":"Repentort",
+        "definition":"The discomfort one feels when a criticism she makes is unanimously approved, feeling she didn't do justice to the criticised party."
+    },
+    {
         "title":"Scizoops",
         "definition":"The willingness one has to be liked by someone she dislikes. In its most acute variant, the willingness increases exponentially with the intensity of dislike."
     },
