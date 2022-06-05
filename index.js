@@ -6,7 +6,7 @@ const build_expression_html = ({ title, phonetics, definition, examples }) => {
             </div>`) : ''
     
     return `
-    <div class='row justify-content-center mb-4'>
+    <div class='row justify-content-center mb-4' id='${title.trim().toLowerCase()}'>
         <div class="col-lg-6">
             <div class="line me-auto mb-3 mt-3"></div>
             <div class='title'>
@@ -43,4 +43,16 @@ const fill_expressions = (expressions) => {
     expressions_html.forEach(expression_html => {
         document.getElementById('main').innerHTML += expression_html;
     });
+
+    go_to_expression();
 };
+
+const go_to_expression = () => {
+    const queryString = window.location.search
+    const urlParams = new URLSearchParams(queryString)
+    const id = urlParams.get('id')
+    var element = document.getElementById(id)
+    if (element) {
+        element.scrollIntoView();    
+    }
+}
