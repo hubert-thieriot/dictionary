@@ -17,7 +17,8 @@
     },
     {
         "title": "Jureadiction",
-        "definition": "One's metabolism increase as she reads an article she disagrees with, spun by the idea that she would have to prove the author wrong in front of a partial jury. The phenomenon is exacerbated when the article has been shared by someone she highly values or respects."
+        "definition": "One's metabolism increase as she reads an article she disagrees with, spun by the idea that she would have to prove the author wrong in front of a partial jury. The phenomenon is exacerbated when the article has been shared by someone she highly values or respects.",
+        "examples":"Just looking at the title, I feel <span class='highlight'>jureadiction</span>."
     },
     {
         "title":"Oxia",
